@@ -2,7 +2,10 @@
 #define __triangle3_h__
 
 
+#include <stdlib.h>
+
 #include "vec3.h"
+#include "rcodes.h"
 
 
 typedef struct {
