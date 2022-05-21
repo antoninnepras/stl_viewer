@@ -14,7 +14,9 @@ typedef struct {
 Mesh* mesh_create(void);
 
 
-void mesh_destroy(Mesh* msh);
+int mesh_destroy(Mesh* msh);
 
+
+int
 
 #endif
