@@ -1,6 +1,8 @@
 #ifndef __vec3_h__
 #define __vec3_h__
 
+#include <math.h>
+
 
 typedef struct {
   double x;
