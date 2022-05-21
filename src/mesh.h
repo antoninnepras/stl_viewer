@@ -4,10 +4,13 @@
 #include "triangle3.h"
 
 
+#define MESH_DEFAULT_CAP 4
+
+
 typedef struct {
-    Triangle3* triangles;
-    int triangle_cnt;
-    int triangle_cap;
+  Triangle3* triangles;
+  int triangle_cnt;
+  int triangle_cap;
 } Mesh;
 
 

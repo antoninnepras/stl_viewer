@@ -6,7 +6,7 @@
 
 
 typedef struct {
-    Vec3 vertices[3];
+  Vec3 vertices[3];
 } Triangle3;
 
 
