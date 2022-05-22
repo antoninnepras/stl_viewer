@@ -44,7 +44,7 @@ int mesh_add_triangle(Mesh* msh, Triangle3 t)
   }
 
   if (msh->triangle_cap == msh->triangle_cnt) {
-    msh->triangle_cnt *= 2;
+    msh->triangle_cap *= 2;
     msh->triangles = (Triangle3*)realloc(msh->triangles,
                                          msh->triangle_cap * sizeof(Triangle3));
     if (msh->triangles == NULL) {
