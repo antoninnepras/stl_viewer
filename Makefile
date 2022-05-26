@@ -1,6 +1,6 @@
 CC 		= gcc
 CFLAGS	= -Wall -g
-LSFLAGS = -lGL -lglut -lm
+LSFLAGS = -lGL -lglut -lm -lGLU
 TARGET 	= main
 
 CFILES  = $(wildcard src/*.c)
