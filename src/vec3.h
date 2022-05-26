@@ -35,4 +35,7 @@ Vec3 vec3_cross(Vec3 v1, Vec3 v2);
 double vec3_size(Vec3 v);
 
 
+Vec3 vec3_norm(Vec3 v);
+
+
 #endif

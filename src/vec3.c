@@ -15,7 +15,7 @@ Vec3 vec3_add(Vec3 v1, Vec3 v2)
 
 Vec3 vec3_sub(Vec3 v1, Vec3 v2)
 {
-  return (Vec3){v1.x + v2.x, v1.y + v2.y, v1.z + v2.z};
+  return (Vec3){v1.x - v2.x, v1.y - v2.y, v1.z - v2.z};
 }
 
 
@@ -47,4 +47,10 @@ Vec3 vec3_cross(Vec3 v1, Vec3 v2)
 double vec3_size(Vec3 v)
 {
   return sqrt(vec3_dot(v, v));
+}
+
+
+Vec3 vec3_norm(Vec3 v)
+{
+  return vec3_div(v, vec3_size(v));  
 }
